@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum App</title>
+    <link rel="shortcut icon" href="file:///C:/Users/hogu1/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EB%82%B4%EC%96%BC%EA%B5%B4.jpg"
+    type="image/jpg"/>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;500;600;700&family=Merriweather:wght@300;400;700;900&family=Nanum+Gothic+Coding&display=swap');
+    </style>
+</head>
+
+<body>
+  <div id="weather" class="weather_div">
+      <span></span>
+      <span></span>
+  </div>
+  
+  <main class="main-screen">
+    <div class="clock_div">
+      <h2 id="clock">00:00</h2>
+    </div>
+
+    <div class="login-form_div">
+      <form class="hidden" id="login-form">
+      <input
+      required
+      maxlength="15"
+      type="text"
+      placeholder="What's your name?"
+      class = "input"
+      />
+      <input type="submit" value="Log In" />
+      </form>
+    </div>
+
+    <div class="greetings_div">
+      <h1 id="greeting" class="hidden"></h1>
+    </div>
+
+    <div class="todo_div">
+      <form id="todo-form">
+      <input 
+      type="text" 
+      placeholder="Write a To Do here" 
+      required 
+      class="input"/> 
+      </form>
+      <ul id="todo-list">
+      </ul>
+    </div>
+
+    <div class="quotes_father">
+      <div id="quote1" class="quotes_quote" >
+        <span></span>
+      </div>
+      <div id="quote2" class="quotes_author">
+        <span></span>
+      </div>
+    </div>
+  </main>
+
+  <script src="js/greeting.js"></script>  
+  <script src="js/clock.js"></script> 
+  <script src="js/quotes.js"></script>  
+  <script src="js/background.js"></script>  
+  <script src="js/todo.js"></script> 
+  <script src="js/weather.js"></script> 
+</body>
+</html>

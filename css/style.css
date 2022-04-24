@@ -1,0 +1,46 @@
+@import "clock.css";
+@import "greetings.css";
+@import "quotes.css";
+@import "todo.css";
+@import "weather.css";
+
+
+body {
+  height: 100%;
+  font-family: 'Inconsolata', monospace;
+}
+
+
+.hidden {
+    display: none;
+}
+
+
+.background_img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 1;
+}
+
+.main-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+  
+
+
+
+  
+
+  
+
+

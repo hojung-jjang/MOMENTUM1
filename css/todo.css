@@ -1,0 +1,64 @@
+ul {
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: start;
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    margin-bottom: 5px;
+  }
+
+ul span {
+  margin-left: 15px;
+}
+
+ul li {
+  margin-bottom: 3px;
+}
+
+
+  button {
+    appearance: none;
+    height: 20px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: none;
+    font-weight: bolder;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-family: "Noto Sans KR", sans-serif;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
+    background-color: var(--button-bg-color);
+    font-size: 15px;
+    margin-left: 5px;
+  }
+
+  .input {
+    font-size: 1rem;
+    color: white;
+    background-color:transparent;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid white;
+    padding: 0px 40px;
+    width: 250px;
+    height: 35px;
+  }
+  
+.input::placeholder {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+  }
+  
+.input:focus{
+    text-align: center;
+  }
+
+.done {
+  text-decoration: line-through;
+}
