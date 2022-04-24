@@ -2,5 +2,37 @@
     color: white;
     font-weight: lighter;
     font-size: 35px;
-    margin-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+#login-form {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 50px;
+}
+
+#login-form input::placeholder {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#login-form input::marker {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+#login-form input:last-child {
+    padding: 10px 15px;
+    margin-left: 20px;
+    font-weight: 400;
+    background-color: rgba(87, 86, 86, 0.5);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#login-form input:last-child:hover {
+    cursor: pointer;
 }

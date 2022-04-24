@@ -42,9 +42,14 @@ ul li {
     outline: none;
     border: none;
     border-bottom: 3px solid white;
+    padding: 0px 20px;
+    width: 500px;
+    height: 45px;
+  }
+
+  #todo-form input{
+    width: 200px;
     padding: 0px 40px;
-    width: 250px;
-    height: 35px;
   }
   
 .input::placeholder {
